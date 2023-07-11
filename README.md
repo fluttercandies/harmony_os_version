@@ -1,15 +1,23 @@
 # harmony_os_version
 
-A new Flutter project.
+[![pub package](https://img.shields.io/pub/v/harmony_os_version.svg)](https://pub.dartlang.org/packages/harmony_os_version)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
 
-## Getting Started
+We use the `harmony_os_version` plugin to get harmony os version.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## Usage
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To use this plugin, add `harmony_os_version` as a dependency in your pubspec.yaml file. For example:
+```yaml
+dependencies:
+  harmony_os_version: ^1.0.0
+```
 
+## Example
+
+``` dart
+_xxx() async {
+    String? osVersion = HarmonyOsVersion().osVersion();
+    print(osVersion);
+ }
+```

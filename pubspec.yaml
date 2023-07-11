@@ -1,7 +1,8 @@
 name: harmony_os_version
-description: A new Flutter project.
-version: 0.0.1
-homepage:
+description: 用来获取鸿蒙os版本,比如2.0.0,3.0.0等
+version: 1.0.0
+homepage: https://github.com/zhangruiyu/harmony_os_version.git
+
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
